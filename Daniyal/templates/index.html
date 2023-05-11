@@ -58,8 +58,7 @@
 
                 <div class="about__container bd-grid">
                     <div class="about__img">
-                        <!-- <img src="{% static 'assets/img/perfil.png' %}" alt=""> -->
-                        <img src="{{ about.profile_img.url }}" alt="">
+                        <img src="{{ about.profile_image.url }}" alt="">
                     </div>
 
                     <div>
@@ -106,7 +105,7 @@
                         <img src="{{ portfolio.image.url }}" alt="">
 
                         <div class="portfolio__link">
-                            <a href="{{ portfolio.link }}" class="portfolio__link-name">View details</a>
+                            <a href="{{ portfolio.link }}" class="portfolio__link-name"  target="_blank">View details</a>
                         </div>
                     </div>
 
